@@ -1,0 +1,4 @@
+1 lamemp3工程在android/mp3lame
+2 ffmpeg编译依次编译各个架构，
+    (a) 每次编译前执行ijk-0-6-3-ffmpeg-3-1-armv7a/clean.sh
+   （b）确保android/build无架构相关目录

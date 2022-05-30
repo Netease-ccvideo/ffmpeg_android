@@ -1,0 +1,6 @@
+1 编译方法
+在mp3lame/src/main目录下，执行命令
+ndk-build APP_BUILD_SCRIPT=./jni/Android.mk NDK_APPLICATION_MK=./jni/Application.mk
+
+2 输出库
+mp3lame/src/main/obj

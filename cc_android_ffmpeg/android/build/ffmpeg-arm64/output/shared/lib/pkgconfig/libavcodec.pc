@@ -1,0 +1,14 @@
+prefix=/Users/cc/code/android_player_ffmpeg/android/build/ffmpeg-arm64/output/shared
+exec_prefix=${prefix}
+libdir=${prefix}/lib
+includedir=${prefix}/include
+
+Name: libavcodec
+Description: FFmpeg codec library
+Version: 57.48.101
+Requires: libavutil >= 55.27.100
+Requires.private: 
+Conflicts:
+Libs: -L${libdir}  -lijkffmpeg -lssl -lcrypto -lmp3lame -lm -lz -pthread
+Libs.private: 
+Cflags: -I${includedir}

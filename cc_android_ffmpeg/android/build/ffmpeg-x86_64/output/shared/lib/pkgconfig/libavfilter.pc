@@ -1,0 +1,14 @@
+prefix=/Users/cc/code/android_player_ffmpeg/android/build/ffmpeg-x86_64/output/shared
+exec_prefix=${prefix}
+libdir=${prefix}/lib
+includedir=${prefix}/include
+
+Name: libavfilter
+Description: FFmpeg audio/video filtering library
+Version: 6.46.102
+Requires: libswresample >= 2.1.100, libavutil >= 55.27.100
+Requires.private: 
+Conflicts:
+Libs: -L${libdir}  -lijkffmpeg -lssl -lcrypto -lmp3lame -lm -lz -pthread
+Libs.private: 
+Cflags: -I${includedir}
